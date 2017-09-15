@@ -13,7 +13,7 @@ public with sharing class ITER_IteratorPatternDemo {
     	(new ITER_IteratorPatternDemo()).demonstrate();
     }
     
-    public void demonstrate() {
+    private void demonstrate() {
 		for (ITER_IteratorIntf iterator = this.nameRepository.getIterator(); iterator.hasNext(); ) {
 			System.debug('Name: ' + (String) iterator.next());
 		}

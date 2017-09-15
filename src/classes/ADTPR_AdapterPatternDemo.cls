@@ -1,16 +1,16 @@
-public with sharing class ADTPR_AudioPlayerDemo {
+public with sharing class ADTPR_AdapterPatternDemo {
 	ADTPR_AudioPlayer audioPlayer;
 	
-	public ADTPR_AudioPlayerDemo(ADTPR_AudioPlayer audioPlayer) {
+	public ADTPR_AdapterPatternDemo(ADTPR_AudioPlayer audioPlayer) {
 		this.audioPlayer = audioPlayer;
 	}
     
-	public ADTPR_AudioPlayerDemo() {
+	public ADTPR_AdapterPatternDemo() {
 		this(new ADTPR_AudioPlayer());
 	}
 	
 	public static void main() {
-		(new ADTPR_AudioPlayerDemo()).demonstrate();
+		(new ADTPR_AdapterPatternDemo()).demonstrate();
 	}
 	
 	private void demonstrate() {

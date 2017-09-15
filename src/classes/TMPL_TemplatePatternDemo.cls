@@ -4,7 +4,7 @@ public with sharing class TMPL_TemplatePatternDemo {
 		(new TMPL_TemplatePatternDemo()).demonstrate();
 	}    
 	
-	public void demonstrate() {
+	private void demonstrate() {
 		TMPL_AbstractGame game = new TMPL_Cricket();
 		game.play();
 

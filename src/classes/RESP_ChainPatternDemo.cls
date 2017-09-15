@@ -3,7 +3,7 @@ public with sharing class RESP_ChainPatternDemo {
     	(new RESP_ChainPatternDemo()).demonstrate();
     }
     
-    public void demonstrate() {
+    private void demonstrate() {
     	RESP_AbstractLogger loggerChain = this.getChainOfLoggers();
     	loggerChain.logMessage(LoggingLevel.INFO, 'This is an information');
     	loggerChain.logMessage(LoggingLevel.DEBUG, 'This is a debug level information');

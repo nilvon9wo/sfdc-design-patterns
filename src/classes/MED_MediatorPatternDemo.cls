@@ -3,7 +3,7 @@ public with sharing class MED_MediatorPatternDemo {
     	(new MED_MediatorPatternDemo()).demonstrate();
     }
     
-    public void demonstrate() {
+    private void demonstrate() {
     	MED_UserDecorator robert = new MED_UserDecorator('Robert');
     	MED_UserDecorator john = new MED_UserDecorator('John');
     	

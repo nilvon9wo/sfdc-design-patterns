@@ -14,7 +14,7 @@ public with sharing class NULL_NullPatternDemo {
 		(new NULL_NullPatternDemo()).demonstrate(); 
 	}
 	
-	public void demonstrate() {
+	private void demonstrate() {
 		System.debug('Customers');
 		System.debug(this.customerFactory.getCustomer('Rob').getName());
 		System.debug(this.customerFactory.getCustomer('Bob').getName());

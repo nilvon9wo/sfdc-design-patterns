@@ -1,9 +1,9 @@
-public with sharing class DCOR_RedShapeDecoratorDemo {
+public with sharing class DCOR_DecoratorPatternDemo {
     public static void main() {
-    	(new DCOR_RedShapeDecoratorDemo()).demonstrate();
+    	(new DCOR_DecoratorPatternDemo()).demonstrate();
     }
     
-    public void demonstrate() {
+    private void demonstrate() {
     	FTY_ShapeIntf circle = new FTY_Circle();
     	System.debug('Circle with normal border');
     	circle.draw();

@@ -3,7 +3,7 @@ public with sharing class COMPO_CompositePatternDemo {
 		(new COMPO_CompositePatternDemo()).demonstrate();
 	}
 	
-	public void demonstrate() {
+	private void demonstrate() {
 		COMPO_Employee clerk1 = new COMPO_Employee('Laura', 'Marketing', 100000); 		
 		COMPO_Employee clerk2 = new COMPO_Employee('Bob', 'Marketing', 100000); 		
 		COMPO_Employee headSales = new COMPO_Employee('Robert', 'Head Sales', 200000); 		

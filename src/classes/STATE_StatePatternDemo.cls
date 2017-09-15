@@ -12,7 +12,7 @@ public with sharing class STATE_StatePatternDemo {
 		(new STATE_StatePatternDemo()).demonstrate();
 	}
     
-    public void demonstrate() {
+    private void demonstrate() {
     	STATE_StartState startState = new STATE_StartState();
     	startState.doAction(this.context);
 

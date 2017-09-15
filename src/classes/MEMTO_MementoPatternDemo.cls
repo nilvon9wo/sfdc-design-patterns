@@ -15,7 +15,7 @@ public with sharing class MEMTO_MementoPatternDemo {
 		(new MEMTO_MementoPatternDemo()).demonstrate(); 
 	}
 	
-	public void demonstrate() {
+	private void demonstrate() {
 		this.originator.state = 'State #1';
 		this.originator.state = 'State #2';
 		this.careTaker.add(originator.saveStateToMemento());

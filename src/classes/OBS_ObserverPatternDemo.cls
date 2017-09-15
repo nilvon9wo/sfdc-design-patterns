@@ -13,7 +13,7 @@ public with sharing class OBS_ObserverPatternDemo {
     	(new OBS_ObserverPatternDemo()).demonstrate();
     }
     
-    public void demonstrate() {
+    private void demonstrate() {
     	new OBS_HexadecimalObserver(this.subject);
     	new OBS_OctalObserver(this.subject);
     	new OBS_BinaryObserver(this.subject);

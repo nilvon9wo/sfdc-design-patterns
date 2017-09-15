@@ -14,4 +14,4 @@ public with sharing class PROTO_ShapeCache {
 	public void loadCache(PROTO_AbstractShape shape) {
 		SHAPE_BY_ID_MAP.put(shape.id, shape);
 	}
-} 
+}

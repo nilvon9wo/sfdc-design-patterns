@@ -1,16 +1,16 @@
-public with sharing class BLDR_MealBuilderDemo {
+public with sharing class BLDR_BuilderPatternDemo {
 	BLDR_MealBuilder mealBuilder;
 	
-	public BLDR_MealBuilderDemo(BLDR_MealBuilder mealBuilder) {
+	public BLDR_BuilderPatternDemo(BLDR_MealBuilder mealBuilder) {
 		this.mealBuilder = mealBuilder;
 	}
 	
-	public BLDR_MealBuilderDemo() {
+	public BLDR_BuilderPatternDemo() {
 		this(new BLDR_MealBuilder());
 	}
 	
 	public static void main() {
-		(new BLDR_MealBuilderDemo()).demonstrate();
+		(new BLDR_BuilderPatternDemo()).demonstrate();
 	}    
 	
 	private void demonstrate() {

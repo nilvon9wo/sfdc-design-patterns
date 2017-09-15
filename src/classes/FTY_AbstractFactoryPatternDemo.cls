@@ -1,19 +1,19 @@
-public with sharing class FTY_FactoryProducerDemo {
+public with sharing class FTY_AbstractFactoryPatternDemo  {
 	FTY_FactoryProducer factoryProducer;
 	
-	public FTY_FactoryProducerDemo(FTY_FactoryProducer factoryProducer) {
+	public FTY_AbstractFactoryPatternDemo(FTY_FactoryProducer factoryProducer) {
 		this.factoryProducer = factoryProducer;
 	}
 	
-	public FTY_FactoryProducerDemo() {
+	public FTY_AbstractFactoryPatternDemo() {
 		this(new FTY_FactoryProducer());
 	}
 	
 	public static void main() {
-		(new FTY_FactoryProducerDemo()).demonstrate();
+		(new FTY_AbstractFactoryPatternDemo()).demonstrate();
 	}
 	
-	public void demonstrate() {
+	private void demonstrate() {
 		List<FTY_ShapeType> shapeTypeList = new List<FTY_ShapeType>{
 			FTY_ShapeType.CIRCLE, FTY_ShapeType.RECTANGLE, FTY_ShapeType.SQUARE
 		};

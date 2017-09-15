@@ -24,4 +24,4 @@ public with sharing class FTY_Circle extends PROTO_AbstractShape implements FTY_
 			System.debug('Inside FTY_Circle::draw() method.');
 		}
 	}     
-} 
+}

@@ -1,15 +1,15 @@
-public with sharing class PROTO_ShapeCacheDemo {
+public with sharing class PROTO_PrototypePatternDemo  {
 	PROTO_ShapeCache shapeCache;
-    public PROTO_ShapeCacheDemo(PROTO_ShapeCache shapeCache) {
+    public PROTO_PrototypePatternDemo(PROTO_ShapeCache shapeCache) {
     	this.shapeCache = shapeCache;
     }
 
-    public PROTO_ShapeCacheDemo() {
+    public PROTO_PrototypePatternDemo() {
     	this(new PROTO_ShapeCache());
     }
     
     public static void main() {
-    	(new PROTO_ShapeCacheDemo()).demonstrate();
+    	(new PROTO_PrototypePatternDemo()).demonstrate();
     }
     
     private void demonstrate() {

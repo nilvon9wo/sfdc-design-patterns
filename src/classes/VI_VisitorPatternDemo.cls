@@ -15,7 +15,7 @@ public with sharing class VI_VisitorPatternDemo {
     	(new VI_VisitorPatternDemo()).demonstrate();
     }
     
-    public void demonstrate() {
+    private void demonstrate() {
     	this.computerPart.accept(computerPartDisplayVisitor);
     }
 }

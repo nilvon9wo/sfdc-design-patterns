@@ -3,7 +3,7 @@ public with sharing class INTRP_InterpreterPatternDemo {
 		(new INTRP_InterpreterPatternDemo()).demonstrate();
 	}    
 	
-	public void demonstrate() {
+	private void demonstrate() {
 		INTPR_ExpressionIntf isMale = this.getMaleExpression();
 		INTPR_ExpressionIntf isMarriedWoman = this.getMarriedWomanExpression();
 		
