@@ -2,7 +2,7 @@
     <apex:form >
         <apex:pageBlock title="Student Number {!student.EnrollmentNumber__c}">
             Name: <apex:inputField value="{!student.Name__c}" />
-            <apex:commandButton action="{!save}" value="Save" />
+            	<apex:commandButton action="{!doUpdate}" value="Update" /> 
         </apex:pageBlock>
     </apex:form>
 </apex:page>

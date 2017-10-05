@@ -8,15 +8,15 @@ public with sharing class MVC_StudentVFCtrl {
                 this.studentDao = studentDao;
                 this.vfPageWrapper = vfPageWrapper; 
                 
-                Id studentId = vfPageWrapper.id;
-                this.student = this.studentDao.selectById(studentId);
+                Integer enrollmentNumber = Integer.valueOf(vfPageWrapper.parameterByNameMap.get('enrollmentNumber'));
+                this.student = this.studentDao.selectByEnrollmentNumber(enrollmentNumber);
         } 
 
         public MVC_StudentVFCtrl() {
                 this(new DAO_StudentDao(), new MVC_VfPageWrapper());
         }
-        
-        public PageReference save() {
+         
+        public PageReference doUpdate() {
                 this.studentDao.doUpdate(this.student);
                 return null;
         }
