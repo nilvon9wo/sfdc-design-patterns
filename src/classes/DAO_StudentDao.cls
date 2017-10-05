@@ -41,6 +41,10 @@ public with sharing class DAO_StudentDao implements DAO_StudentDaoIntf {
 		System.debug('Student: Enrollment Number ' + student.EnrollmentNumber__c + ', updated in the database');
 	}	   
 
+	public void doDelete(Integer enrollmentNumber) {
+		this.doDelete(this.selectByEnrollmentNumber(enrollmentNumber));
+	}
+
 	public void doDelete(List<Student__c> studentList) {
 		delete studentList;
 	}	   
