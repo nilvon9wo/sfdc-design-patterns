@@ -1,0 +1,12 @@
+	<aura:component controller="MVC_StudentAuraCtrl">
+	<aura:attribute name="enrollmentNumber" type="Integer" /> 
+	<aura:attribute name="student" type="Student__c" />
+	
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+	
+    <form>
+    	Enrollment Number: <ui:outputNumber value="{!v.student.EnrollmentNumber__c}"/>
+    	<ui:inputText label="Student Name" value="{!v.student.Name__c}"/>
+    	<lightning:button label="Update" onclick="{!c.doUpdate}" />
+    </form>
+</aura:component>
