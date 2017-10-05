@@ -6,6 +6,23 @@ public with sharing class DAO_StudentDao implements DAO_StudentDaoIntf {
     	];
 	}	   
 
+    public List<Student__c> selectById(Set<Id> idSet) {
+    	return [
+    		SELECT Id, Name__c, EnrollmentNumber__c
+    		FROM Student__c
+    		WHERE Id IN :idSet
+    	];
+    }
+ 
+    public Student__c selectById (Id id) {
+    	try {
+   			return this.selectById(new Set<Id>{id})[0];
+    	}
+    	catch (ListException ex) { 
+    		throw new DAO_StudentDaoException('Student with id ' + id + ' does not exist.');
+    	} 
+    }
+
     public List<Student__c> selectByEnrollmentNumber(Set<Integer> enrollmentNumberSet) {
     	return [
     		SELECT Id, Name__c, EnrollmentNumber__c

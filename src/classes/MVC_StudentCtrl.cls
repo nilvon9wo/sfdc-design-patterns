@@ -1,4 +1,4 @@
-public with sharing class MVC_StudentCtrl {
+public with sharing virtual class MVC_StudentCtrl {
 	private Student__c student; 
 	private MVC_StudentView view;
 	

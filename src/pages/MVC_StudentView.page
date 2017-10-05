@@ -1,0 +1,8 @@
+<apex:page controller="MVC_StudentVFCtrl" tabStyle="Student__c">
+    <apex:form >
+        <apex:pageBlock title="Student Number {!student.EnrollmentNumber__c}">
+            Name: <apex:inputField value="{!student.Name__c}" />
+            <apex:commandButton action="{!save}" value="Save" />
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
