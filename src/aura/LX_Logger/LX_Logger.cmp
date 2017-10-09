@@ -1,0 +1,12 @@
+<aura:component>
+	<aura:attribute name="logItemList" type="String[]" default="[]" />
+	
+	<aura:method name="log" action="{!c.pushToLog}" description="Add message to log" >
+		<aura:attribute name="message" type="String" required="true" />
+		<aura:attribute name="severity" type="String" default="debug" />
+	</aura:method>
+		
+	<aura:iteration items="{!v.logItemList}" var="logItem">
+		<p class="{!logItem.severity}">{!logItem.message}</p>
+	</aura:iteration>
+</aura:component>

@@ -1,0 +1,19 @@
+.THIS.debug {
+	color: black;
+	background-color: white;
+}
+
+.THIS.info {
+	color: blue;
+	background-color: white;
+}
+
+.THIS.warn { 
+	color: yellow;
+	background-color: black;
+}
+
+.THIS.error {
+	color: red;
+	background-color: black;
+}
