@@ -1,0 +1,11 @@
+<aura:component>
+	<c:LX_Logger aura:id="logger" />
+	<ltng:require scripts="{!join(',',
+								$Resource.LX_Logger_JS,
+								$Resource.dojo_1_21_1_min_JS,
+								$Resource.SCONTMOD_DojoDemoModule_JS
+							)}"
+		afterScriptsLoaded="{!c.demonstrate}" 
+	/>
+	<div class="container"></div>
+</aura:component>

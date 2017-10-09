@@ -1,3 +1,3 @@
 <aura:application>
-	<c:SCONTMOD_NamespaceModuleDemo /> 
+	<c:REVMOD_RevealingCounterModuleDemo />    
 </aura:application> 
