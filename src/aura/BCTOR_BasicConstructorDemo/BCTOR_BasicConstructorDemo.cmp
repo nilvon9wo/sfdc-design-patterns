@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
 	<c:LX_Logger aura:id="logger" />
 	<ltng:require scripts="{!$Resource.BCTOR_Car_JS}"
 		afterScriptsLoaded="{!c.demonstrate}" 

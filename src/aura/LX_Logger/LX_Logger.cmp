@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
 	<aura:attribute name="logItemList" type="String[]" default="[]" />
 	
 	<aura:method name="log" action="{!c.pushToLog}" description="Add message to log" >

@@ -1,3 +1,3 @@
-<aura:application>
-	<c:REVMOD_RevealingCounterModuleDemo />    
-</aura:application> 
+<aura:application >
+	<c:OSC_SingletonTesterDemo />    
+</aura:application>

@@ -1,4 +1,4 @@
-	<aura:component controller="MVC_StudentAuraCtrl">
+<aura:component controller="MVC_StudentAuraCtrl">
 	<aura:attribute name="enrollmentNumber" type="Integer" /> 
 	<aura:attribute name="student" type="Student__c" />
 	
