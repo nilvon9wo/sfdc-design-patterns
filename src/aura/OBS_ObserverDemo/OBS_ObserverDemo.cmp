@@ -1,0 +1,12 @@
+<aura:component >
+	<ltng:require scripts="{!join(',', 
+								$Resource.OBS_ObserverList_JS,
+								$Resource.OBS_Subject_JS,
+								$Resource.OBS_Observer_JS
+							)}"
+		afterScriptsLoaded="{!c.doInit}" 
+	/>
+    <lightning:button aura:id="addNewObserver" variant="brand" label="Add New Observer" />
+    <lightning:input aura:id="mainCheckbox" type="checkbox" label="Checkbox" name="checkbox" />
+	<div aura:id="observerContainer"></div>
+</aura:component>

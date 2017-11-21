@@ -1,3 +1,3 @@
 <aura:application >
-	<c:OSC_SingletonTesterDemo />    
+	<c:OBS_ObserverDemo />    
 </aura:application>
