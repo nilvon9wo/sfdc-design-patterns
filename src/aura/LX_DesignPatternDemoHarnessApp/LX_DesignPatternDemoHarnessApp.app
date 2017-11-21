@@ -1,3 +1,3 @@
 <aura:application >
-	<c:OBS_ObserverDemo />    
+	<c:PUBSUB_PublishSubscribeDemo />    
 </aura:application>
