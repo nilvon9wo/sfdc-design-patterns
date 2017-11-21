@@ -5,7 +5,7 @@ $Jsdp.Mailer = (function() {
 		$Jsdp.EventBus.subscribe('order/new', this.sendPurchaseEmail);
 	};
 	
-	Mailer.prototype.sendPurchaseEmail = function(userEmail) {
+	Mailer.prototype.sendPurchaseEmail = function(topic, userEmail) {
 		$Jsdp.LxLogger.logger.log('Sent email to ' + userEmail);
 	};
 	

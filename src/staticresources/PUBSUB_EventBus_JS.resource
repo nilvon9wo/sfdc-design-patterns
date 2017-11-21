@@ -9,7 +9,7 @@ $Jsdp.EventBus = (function() {
 		}
 		
 		topics[topic].forEach(function (listener) {
-			listener(data || {});
+			listener(topic, data || {});
 		});
 	}
 

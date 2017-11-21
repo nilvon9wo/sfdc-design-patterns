@@ -1,0 +1,16 @@
+<aura:component >
+	<c:LX_Logger aura:id="logger" /> 
+	<ltng:require scripts="{!join(',', 
+								$Resource.jquery_3_2_1_min_JS, 
+								$Resource.LX_Logger_JS,
+								$Resource.PUBSUB_EventBus_JS
+							)}"
+		afterScriptsLoaded="{!c.demonstrate}" 
+	/>
+	<h1>Subscriber 1</h1>
+	<div class="messageSender"></div>
+	<div class="messagePreview"></div>
+	
+	<h1>Subscriber 2</h1>
+	<div class="newMessageCounter"></div>
+</aura:component>
