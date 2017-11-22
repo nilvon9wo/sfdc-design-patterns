@@ -1,0 +1,16 @@
+<aura:component >
+	<aura:attribute access="private" type="Boolean" name="value" default="false"/>
+
+	<!-- Alternatively, we could use a public method on the observers,
+		but while possibly a better solution for this problem,
+		it moves away from what we are demonstrating.
+	  -->
+	<aura:registerEvent name="checkboxChangedEvent" type="c:OBS_CheckboxChangedEvent"/>
+	
+    <lightning:button aura:id="addNewObserver" variant="brand" label="Add New Observer" onclick="{!c.addNewObserver}" />
+    <lightning:input aura:id="mainCheckbox" type="checkbox" label="Checkbox" name="checkbox" checked="{!v.value}" onchange="{!c.notifyChecked}" />
+    
+	<div aura:id="observerContainer">
+		{!v.body}
+	</div>
+</aura:component>

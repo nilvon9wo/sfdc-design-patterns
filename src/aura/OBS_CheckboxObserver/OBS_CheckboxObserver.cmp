@@ -1,0 +1,6 @@
+<aura:component>
+	<aura:attribute access="private" type="Boolean" name="value" default="false" />
+	<aura:handler event="c:OBS_CheckboxChangedEvent" action="{!c.handleMainCheckboxChange}"/>
+
+	<lightning:input name="Slave" label="Slave" type="checkbox" checked="{!v.value}"/>
+</aura:component>

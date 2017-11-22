@@ -1,3 +1,3 @@
 <aura:application >
-	<c:PUBSUB_PublishSubscribeDemo3 />    
+	<c:PUBSUB_StockSubscriberDemo />  
 </aura:application>

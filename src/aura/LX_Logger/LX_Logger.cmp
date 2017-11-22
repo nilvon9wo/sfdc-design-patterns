@@ -5,6 +5,11 @@
 		<aura:attribute name="message" type="String" required="true" />
 		<aura:attribute name="severity" type="String" default="debug" />
 	</aura:method>
+
+	<aura:method name="displayObject" action="{!c.displayObject}" >
+		<aura:attribute name="label" type="String" required="true" />
+		<aura:attribute name="object" type="String" required="true" />
+	</aura:method>
 		
 	<aura:iteration items="{!v.logItemList}" var="logItem">
 		<p class="{!logItem.severity}">{!logItem.message}</p>

@@ -1,11 +1,7 @@
 var $Jsdp = $Jsdp || {};
 
-$Jsdp.LxLogger = {
-	log: function(message) {
-		if (!this.logger || !this.logger.log) {
-			throw new Error('Logger has not been set.');
-		}
-		
-		this.logger.log(message);
-	}
-};
+// This object is a placeholder providing a common point of reference within $Jsdp resources and LX components.
+// 		LX components should include <ltng:require scripts="{!$Resource.LX_Logger_JS}">
+//		After Scripts Loaded, execute $Jsdp.LxLogger.logger = component.find('logger');
+//		Where "logger" is the aura:id of a component with a public "log" method.
+$Jsdp.LxLogger = {};
