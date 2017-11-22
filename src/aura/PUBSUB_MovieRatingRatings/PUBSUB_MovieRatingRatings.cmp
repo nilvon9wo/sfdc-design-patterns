@@ -1,0 +1,7 @@
+<aura:component >
+	<aura:attribute access="public" type="String" name="title" /> 
+	<aura:attribute access="public"	 type="Integer" name="rating" /> 
+	<li>
+		<strong>{!v.title}</strong> was rated <c:RTG_FiveStarRating value="{!v.rating}" readonly="true" /> 
+	</li>
+</aura:component>

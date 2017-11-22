@@ -1,0 +1,36 @@
+<aura:component >
+	<aura:attribute access="private" type="String" name="twitterHandle" />
+	<aura:attribute access="private" type="String" name="movieSeen" />
+	<aura:attribute access="private" type="Integer" name="movieRating" />
+	
+	<ltng:require scripts="{!join(',', 
+								$Resource.PUBSUB_EventBus2_JS
+							)}"
+		afterScriptsLoaded="{!c.demonstrate}" 
+	/>	
+	
+	<div id="container">
+		<div class="sampleForm">
+			<lightning:input aura:id="twitterHandle" name="twitterHandle" label="Twitter handle" value="{!v.twitterHandle}" />
+			<lightning:input aura:id="movieSeen" name="movieSeen" label="Name a movie you've seen this year" value="{!v.movieSeen}" />
+			
+			<div aura:id="movieRating">
+				Rate the movie you saw:
+				<c:RTG_FiveStarRating value="{!v.movieRating}" readonly="false" />
+			</div>
+			
+		    <lightning:button variant="brand" label="Submit rating" onclick="{!c.addNewUser}"/>
+		</div>
+		
+		<table class="sumaryTable">
+			<tr>
+				<th>Recent Users</th>
+				<th>Recent Movies Rated</th>
+			</tr>
+			<tr>
+				<td><ul aura:id="users"></ul></td>
+				<td><ul aura:id="ratings"></ul></td>
+			</tr>
+		</table>
+	</div>
+</aura:component>

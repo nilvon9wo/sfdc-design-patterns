@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
 	<aura:attribute access="private" type="Boolean" name="value" default="false" />
 	<aura:handler event="c:OBS_CheckboxChangedEvent" action="{!c.handleMainCheckboxChange}"/>
 

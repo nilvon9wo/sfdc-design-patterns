@@ -1,0 +1,4 @@
+<aura:component >
+	<aura:attribute access="public" type="String" name="name" /> 
+	<li>{!v.name}</li>
+</aura:component>

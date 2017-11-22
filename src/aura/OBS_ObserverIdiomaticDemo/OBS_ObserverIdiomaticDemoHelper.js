@@ -14,7 +14,7 @@
 			else {
 				console.error('Something went wrong!:', errorMessage);
 			}
-		}
+		};
 	},
 
 	extendHtmlElement : function(domElement, javaScriptClassInstance) {

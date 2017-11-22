@@ -1,3 +1,3 @@
 <aura:application >
-	<c:PUBSUB_StockSubscriberDemo />  
+	<c:PUBSUB_MovieRatingSubscriberDemo />  
 </aura:application>
