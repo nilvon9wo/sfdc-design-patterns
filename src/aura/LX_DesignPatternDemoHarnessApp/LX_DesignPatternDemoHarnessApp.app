@@ -1,3 +1,3 @@
 <aura:application >
-	<c:DCOR_MacDecoratorPatternDemo />   
+	<c:DCOR_ReminderInterfaceDemo />   
 </aura:application>
