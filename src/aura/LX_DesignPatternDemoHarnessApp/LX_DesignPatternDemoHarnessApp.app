@@ -1,3 +1,3 @@
 <aura:application >
-	<c:PUBSUB_MovieRatingSubscriberDemo />  
+	<c:PUBSUB_FlickerSearchSubscriberDemo />  
 </aura:application>

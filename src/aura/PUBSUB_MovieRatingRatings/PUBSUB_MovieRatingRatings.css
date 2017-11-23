@@ -1,3 +1,6 @@
+.THIS li {
+	list-style: none;
+}
 .THIS .cRTG_FiveStarRating{
 	float: right;
 }

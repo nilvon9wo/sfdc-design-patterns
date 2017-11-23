@@ -1,0 +1,7 @@
+<aura:component>
+	<aura:attribute access="public" type="Object[]" name="results" />
+
+	<aura:iteration items="{!v.results}" var="result">
+		<li><img src="{!result.media.m}"/></li> 
+	</aura:iteration>
+</aura:component>

@@ -1,13 +1,13 @@
 <aura:component >
-	<aura:attribute access="private" type="String" name="twitterHandle" />
-	<aura:attribute access="private" type="String" name="movieSeen" />
-	<aura:attribute access="private" type="Integer" name="movieRating" />
-	
 	<ltng:require scripts="{!join(',', 
 								$Resource.PUBSUB_EventBus2_JS
 							)}"
 		afterScriptsLoaded="{!c.demonstrate}" 
 	/>	
+	
+	<aura:attribute access="private" type="String" name="twitterHandle" />
+	<aura:attribute access="private" type="String" name="movieSeen" />
+	<aura:attribute access="private" type="Integer" name="movieRating" />
 	
 	<div id="container">
 		<div class="sampleForm">
