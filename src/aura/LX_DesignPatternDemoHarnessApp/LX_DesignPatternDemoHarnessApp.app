@@ -1,3 +1,3 @@
 <aura:application >
-	<c:MIX_CarMixinPatternDemo />   
+	<c:DCOR_MacDecoratorPatternDemo />   
 </aura:application>

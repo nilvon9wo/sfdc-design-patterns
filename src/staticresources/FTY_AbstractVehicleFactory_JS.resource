@@ -13,7 +13,6 @@ $Jsdp.AbstractVehicleFactory = (function(){
 			var prototype = Vehicle.prototype;
 			if (prototype.drive && prototype.breakDown) {
 				types[type] = Vehicle;
-				console.log('##### types', types);
 			}
 			return $Jsdp.AbstractVehicleFactory; 
 		}
