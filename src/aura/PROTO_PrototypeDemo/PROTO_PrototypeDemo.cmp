@@ -1,0 +1,12 @@
+<aura:component >
+	<c:LX_Logger aura:id="logger" />
+	<ltng:require scripts="{!join(',',  
+								$Resource.LX_Logger_JS,
+								$Resource.PROTO_Global_JS,
+								$Resource.PROTO_Vehicle_JS,
+								$Resource.PROTO_Car_JS
+							)}"
+							
+		afterScriptsLoaded="{!c.demonstrate}" 
+	/>
+</aura:component>

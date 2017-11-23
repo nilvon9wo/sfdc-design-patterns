@@ -1,3 +1,3 @@
 <aura:application >
-	<c:PUBSUB_FlickerSearchSubscriberDemo />  
+	<c:PROTO_PrototypeDemo2 />  
 </aura:application>
