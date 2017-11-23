@@ -1,3 +1,3 @@
 <aura:application >
-	<c:PROTO_PrototypeDemo2 />  
+	<c:CMD_CommandPatternDemo />  
 </aura:application>
