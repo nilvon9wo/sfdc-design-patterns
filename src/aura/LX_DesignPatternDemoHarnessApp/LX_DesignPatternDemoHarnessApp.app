@@ -1,3 +1,3 @@
 <aura:application >
-	<c:FTY_AbstractFactoryPatternDemo />   
+	<c:MIX_CarMixinPatternDemo />   
 </aura:application>
