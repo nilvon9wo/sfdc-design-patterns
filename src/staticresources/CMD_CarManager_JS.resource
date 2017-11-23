@@ -23,7 +23,7 @@ $Jsdp.CarManager = (function() {
 				+ ' (' + car.id + ')'
 			);
 		}
-};
+	};
 })();
 
 $Jsdp.CarManager.execute = function(command, car) {

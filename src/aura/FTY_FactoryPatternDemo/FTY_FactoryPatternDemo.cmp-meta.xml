@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FTY_FactoryPatternDemo</fullName>
     <apiVersion>38.0</apiVersion>
-    <description>DESCRIPTION</description>
 </AuraDefinitionBundle>

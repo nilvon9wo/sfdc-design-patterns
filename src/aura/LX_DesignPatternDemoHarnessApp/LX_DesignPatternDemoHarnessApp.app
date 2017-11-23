@@ -1,3 +1,3 @@
 <aura:application >
-	<c:CMD_CommandPatternDemo />  
+	<c:FTY_AbstractFactoryPatternDemo />   
 </aura:application>
