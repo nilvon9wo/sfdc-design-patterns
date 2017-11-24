@@ -1,0 +1,14 @@
+<aura:component >
+	<c:LX_Logger aura:id="logger" />
+	<ltng:require scripts="{!join(',',  
+								$Resource.PJDP_Interface_JS,
+								$Resource.LX_Logger_JS,
+								$Resource.OBJ_ObjectHelper_JS,
+								$Resource.DCOR_MacBookIntf_JS,
+								$Resource.DCOR_MacBookPro_JS,
+								$Resource.DCOR_MacBookDecorator_JS,
+								$Resource.DCOR_MacCaseDecorator_JS 
+							)}"
+		afterScriptsLoaded="{!c.demonstrate}" 
+	/>
+</aura:component>

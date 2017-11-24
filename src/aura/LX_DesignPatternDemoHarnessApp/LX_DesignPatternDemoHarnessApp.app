@@ -1,3 +1,3 @@
 <aura:application >
-	<c:DCOR_ReminderInterfaceDemo />   
+	<c:DCOR_DecoratorsWithJQueryDemo />   
 </aura:application>
