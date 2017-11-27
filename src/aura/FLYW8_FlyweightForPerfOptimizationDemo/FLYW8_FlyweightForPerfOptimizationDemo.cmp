@@ -1,0 +1,18 @@
+<aura:component>
+	<c:LX_Logger aura:id="logger" />
+	<ltng:require scripts="{!join(',',  
+								$Resource.jquery_3_2_1_min_JS,
+								$Resource.jquery_single_JS,
+								$Resource.LX_Logger_JS
+							)}"
+		afterScriptsLoaded="{!c.demonstrate}" 
+	/>
+
+	<hr />
+	<div id="container">
+		<div id="container-a">Container A</div>
+		<div id="container-b">Container B</div>
+		<div id="container-c">Container C</div>
+		<div id="container-c">Container D</div>
+	</div>
+</aura:component>

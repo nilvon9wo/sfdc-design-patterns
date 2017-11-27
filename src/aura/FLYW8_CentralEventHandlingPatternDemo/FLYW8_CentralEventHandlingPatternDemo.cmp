@@ -1,0 +1,19 @@
+<aura:component >
+	<ltng:require scripts="{!join(',',  
+								$Resource.jquery_3_2_1_min_JS,
+								$Resource.FLYW8_StateManager
+							)}"
+		afterScriptsLoaded="{!c.demonstrate}" 
+	/>
+	<div id="log"></div>
+	<div id="container">
+		<div class="toggle" href="#">More Info (Address)
+			<span class="info">This is more information</span>
+		</div>
+		<div class="toggle" href="#">More Info (Map)
+			<span class="info">
+ 				<iframe src="http://www.map-generator.net/extmap.php?name=London&amp;address=london%2C%20england&amp;width=500...gt;"></iframe>
+			</span>
+		</div>
+	</div>
+</aura:component>

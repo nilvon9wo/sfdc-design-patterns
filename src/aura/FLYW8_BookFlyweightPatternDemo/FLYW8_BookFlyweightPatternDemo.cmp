@@ -1,0 +1,8 @@
+<aura:component >
+	<ltng:require scripts="{!join(',',  
+								$Resource.FLYW8_Book_JS,
+								$Resource.FLYW8_BookFactory_JS,
+								$Resource.FLYW8_BookRecordManage_JS
+							)}"
+	/>
+</aura:component>
