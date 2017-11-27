@@ -22,4 +22,4 @@
 		var car2 = new $Jsdp.Vehicle('car');
 		logger.displayObject('car', car2);
 	}
-}) 
+})

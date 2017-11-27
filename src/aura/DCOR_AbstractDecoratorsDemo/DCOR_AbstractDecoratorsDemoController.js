@@ -9,4 +9,4 @@
 		var decoratedMacbookPro = new $Jsdp.MacCaseDecorator(macbookpro);
 		logger.log(decoratedMacbookPro.getPrice());
 	}
-}) 
+})

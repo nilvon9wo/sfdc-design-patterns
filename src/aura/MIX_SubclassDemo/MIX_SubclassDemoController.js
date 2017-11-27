@@ -8,4 +8,4 @@
 		
 		logger.displayObject('superman', superman);
 	}
-}) 
+})

@@ -9,4 +9,4 @@
 							
 		afterScriptsLoaded="{!c.demonstrate}" 
 	/>
-</aura:component> 
+</aura:component>

@@ -33,4 +33,4 @@
 		logger.log(movingTruck instanceof $Jsdp.Truck);
 		logger.displayObject('bigTruck', bigTruck);
 	}
-}) 
+})

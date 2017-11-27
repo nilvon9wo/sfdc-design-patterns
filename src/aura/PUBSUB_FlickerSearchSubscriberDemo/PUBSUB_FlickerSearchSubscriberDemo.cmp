@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
 	<ltng:require scripts="{!join(',', 
 								$Resource.jquery_poor_mans_mock_JS, 
 								$Resource.PUBSUB_EventBus2_JS

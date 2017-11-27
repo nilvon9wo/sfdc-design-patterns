@@ -19,4 +19,4 @@
 		logger.log(truck instanceof $Jsdp.Truck);
 		logger.displayObject('truck', truck);
 	}
-}) 
+})

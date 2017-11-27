@@ -11,4 +11,4 @@
 		logger.log(macbook.cost());
 		logger.log(macbook.screenSize());
 	}
-}) 
+})

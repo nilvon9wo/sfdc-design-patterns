@@ -4,4 +4,4 @@
 		var car2 = $Jsdp.Vehicle2('Ford Escort');
 		logger.log(car2.getModel());
 	}
-}) 
+})

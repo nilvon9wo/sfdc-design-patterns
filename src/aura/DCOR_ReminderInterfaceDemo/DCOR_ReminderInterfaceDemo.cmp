@@ -4,7 +4,7 @@
 								$Resource.PJDP_Interface_JS,
 								$Resource.LX_Logger_JS,
 								$Resource.DCOR_ReminderIntf_JS,
-								$Resource.DCOR_TODO_JS
+								$Resource.DCOR_Todo_JS
 							)}"
 							
 		afterScriptsLoaded="{!c.demonstrate}" 

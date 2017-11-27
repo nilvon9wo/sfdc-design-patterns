@@ -4,4 +4,4 @@
 		var car1 = Object.create($Jsdp.Car);
 		logger.log(car1.model);
 	}
-}) 
+})

@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
 	<aura:attribute access="public" type="Object[]" name="results" />
 
 	<aura:iteration items="{!v.results}" var="result">

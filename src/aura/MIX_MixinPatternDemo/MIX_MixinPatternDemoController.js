@@ -11,4 +11,4 @@
 		carAnimator.moveDown();
 		carAnimator.stop();
 	}
-}) 
+})

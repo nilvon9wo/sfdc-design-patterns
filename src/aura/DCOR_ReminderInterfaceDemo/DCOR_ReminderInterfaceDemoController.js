@@ -15,4 +15,4 @@
 		logger.log(todoItem.methods.summary());
 		logger.log(todoItem.methods.placeOrder());
 	}
-}) 
+})

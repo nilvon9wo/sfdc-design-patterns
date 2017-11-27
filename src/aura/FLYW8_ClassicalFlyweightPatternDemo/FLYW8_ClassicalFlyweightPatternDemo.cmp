@@ -1,0 +1,14 @@
+<aura:component >
+	<c:LX_Logger aura:id="logger" />
+	<ltng:require scripts="{!join(',',  
+								$Resource.OBJ_FunctionHelper_JS,
+								$Resource.LX_Logger_JS,
+								$Resource.FLYW8_CoffeeOrder_JS,
+								$Resource.FLYW8_CoffeeFlavour_JS,
+								$Resource.FLYW8_CoffeeOrderContext_JS,
+								$Resource.FLYW8_CoffeeFlavourFactory_JS
+							)}"
+							
+		afterScriptsLoaded="{!c.demonstrate}" 
+	/>
+</aura:component>

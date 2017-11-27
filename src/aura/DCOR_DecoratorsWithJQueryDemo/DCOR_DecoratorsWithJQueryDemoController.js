@@ -10,4 +10,4 @@
 				+ '<p>' + $Jsdp.DecoratorApp.printObject($Jsdp.DecoratorApp.defaults) + '</p>'
 		);
 	}
-}) 
+})

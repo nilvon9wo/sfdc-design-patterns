@@ -14,4 +14,4 @@
 		carManager.execute( "requestInfo", fordEscort2);
 		carManager.execute( "buyVehicle", fordEscort2);	
 	}
-}) 
+})

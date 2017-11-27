@@ -1,3 +1,3 @@
 <aura:application >
-	<c:DCOR_DecoratorsWithJQueryDemo />   
+	<c:FLYW8_ClassicalFlyweightPatternDemo />   
 </aura:application>
